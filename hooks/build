@@ -7,9 +7,9 @@ GIT_SHA=$(git rev-parse --short HEAD)
 GIT_TAG=$(git tag -l | tail -n 1)
 DOCKERFILE="./Dockerfile"
 
-sed -i "s/__BUILD_DATE__/$BUILD_DATE" $DOCKERFILE
-sed -i "s/__GIT_SHA__/$GIT_SHA" $DOCKERFILE
-sed -i "s/__GIT_TAG__/$GIT_TAG" $DOCKERFILE
+sed -i "s/__BUILD_DATE__/$BUILD_DATE/" $DOCKERFILE
+sed -i "s/__GIT_SHA__/$GIT_SHA/" $DOCKERFILE
+sed -i "s/__GIT_TAG__/$GIT_TAG/" $DOCKERFILE
 
 docker build -t $IMAGE_NAME .
 

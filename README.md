@@ -1,4 +1,11 @@
+
 # Groot
+
+## Version
+**v0.1.0**
+
+[![](https://images.microbadger.com/badges/image/frezbo/groot.svg)](https://microbadger.com/images/frezbo/groot "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/frezbo/groot.svg)](https://microbadger.com/images/frezbo/groot "Get your own version badge on microbadger.com")
 
 ### Description
 
